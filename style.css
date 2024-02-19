@@ -1,0 +1,148 @@
+/* Styles for the header */
+#header {
+    display: flex; /* Flex container */
+    justify-content: space-between; /* Spacing between items */
+    align-items: center; /* Align items vertically */
+    background-color: black; /* Background color */
+    color: white; /* Text color */
+    padding: 15px; /* Padding around the header */
+}
+
+#header img {
+    height: 70px; /* Height of the logo */
+}
+
+/* Styles for the navigation */
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+nav ul li {
+    display: inline; /* Display list items inline */
+    margin-right: 20px; /* Spacing between list items */
+}
+
+nav ul li a {
+    color: white; /* Link text color */
+    text-decoration: none; /* Remove underline */
+    font-size: 18px; /* Font size of the links */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Underline links on hover */
+    color: #90ee90; /* Change link color on hover */
+}
+
+/* General styles for the body */
+body {
+    font-family: 'Kode Mono', sans-serif; /* Use Roboto font with fallback to sans-serif */
+    width: 100%; /* Ensure body takes up entire width */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+a {
+    color: white; /* Link text color */
+}
+
+/* Styles for the home image */
+#home img {
+    height: 400px; /* Height of the home image */
+}
+
+/* Styles for the flex container */
+.flex-container {
+    display: flex; /* Enables flexbox */
+    height: 500px; /* Sets the height of the flex container */
+    background-color: lightgreen; /* Background color of the flex container */
+    flex-direction: nowrap; /* Flex items arranged in a single row */
+    justify-content: space-evenly; /* Spacing between flex items */
+    align-items: center; /* Align flex items vertically */
+}
+
+/* CSS for the flex items */
+.flex-item {
+    display: flex; /* Enables flexbox */
+    flex-direction: column; /* Flex items arranged in a column */
+    width: 500px; /* Width of the flex items */
+    height: 200px; /* Height of the flex items */
+    font-size: 15px; /* Font size of the content */
+    color: black; /* Text color */
+    align-items: center; /* Align flex items horizontally */
+    text-align: center; /* Center-align text */
+    justify-content: center; /* Align content vertically */
+    background-color: white; /* Background color of the flex items */
+}
+
+/* Styles for the project heading */
+.project-heading {
+    text-align: center; /* Center-align text */
+    color: white; /* Text color */
+    background-color: black; /* Background color */
+    padding: 1px; /* Padding around the heading */
+    width: 50%; /* Width of the heading */
+    margin: 0 auto; /* Center horizontally */
+}
+
+/* Styles for the footer */
+.footer {
+    background-color: black; /* Background color */
+    color: white; /* Text color */
+    text-align: start; /* Align text to the left */
+    padding: 20px; /* Padding around the footer */
+    padding-left: 20px; /* Left padding */
+}
+
+.footer-content {
+    display: flex; /* Enables flexbox */
+    align-items: center; /* Align items vertically */
+}
+
+.footer img {
+    height: 70px; /* Height of the footer logo */
+    margin-right: 10px; /* Right margin */
+}
+
+.footer p,
+.footer a {
+    margin: 0; /* Remove default margin */
+}
+
+/* Styles for specific flex items */
+.item1 {
+    width: 400px; /* Width of item */
+    height: 400px; /* Height of item */
+}
+
+.item2 {
+    height: 300px; /* Height of item */
+    width: 500px; /* Width of item */
+    margin: 20px; /* Margin around item */
+}
+
+.item2 p {
+    margin: 30px; /* Margin around paragraph */
+    margin-top: 5px; /* Top margin */
+}
+
+.item3 {
+    height: 300px; /* Height of item */
+    width: 600px; /* Width of item */
+    margin-top: -200px; /* Top margin */
+}
+
+.item3 p {
+    margin: 30px; /* Margin around paragraph */
+    margin-top: 5px; /* Top margin */
+}
+
+.item3 li {
+    text-align: left; /* Left-align list items */
+}
+
+/* Smooth scrolling behavior */
+html {
+    scroll-behavior: smooth; /* Smooth scrolling */
+}
